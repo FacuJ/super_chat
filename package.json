@@ -9,9 +9,11 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
+    "@firebase/app": "^0.6.12",
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
     "core-js": "^3.6.5",
+    "firebase": "^8.0.0",
     "quasar": "^1.0.0"
   },
   "devDependencies": {

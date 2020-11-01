@@ -1,0 +1,21 @@
+[debug] [2020-11-01T00:02:53.348Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T00:02:53.350Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Facundo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-01T00:02:53.350Z] CLI Version:   8.11.2
+[debug] [2020-11-01T00:02:53.350Z] Platform:      win32
+[debug] [2020-11-01T00:02:53.350Z] Node Version:  v12.18.2
+[debug] [2020-11-01T00:02:53.351Z] Time:          Sat Oct 31 2020 21:02:53 GMT-0300 (GMT-03:00)
+[debug] [2020-11-01T00:02:53.351Z] ----------------------------------------------------------------------
+[debug] [2020-11-01T00:02:53.351Z] 
+[debug] [2020-11-01T00:02:53.366Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-01T00:02:53.367Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Documentos\Programacion\Cursos Web\chat_with_vue_quasar\super_chat
+
