@@ -1,7 +1,7 @@
 <template>
   <q-form @submit="submitForm">
     <q-input
-      v-if="tab === 'register'"
+      v-if="tab === 'registro'"
       class="q-mb-md"
       outlined
       v-model="formData.name"
@@ -33,6 +33,8 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
+
 export default {
   props: ['tab'],
   data(){
@@ -45,11 +47,12 @@ export default {
     }
   },
   methods:{
+    ...mapActions('store', ['registerUser', 'loginUser']),
     submitForm() {
       if (this.tab === 'login'){
-        console.log('Loguear el usuario')
+        this.loginUser(this.formData)
       } else {
-        console.log('Registrar el usuario')
+        this.registerUser(this.formData)
       }
     }
   }
